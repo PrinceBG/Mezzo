@@ -16,8 +16,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-
-  
+}
 html {
   font-size: 62.5%; 
 }
@@ -153,7 +152,7 @@ h4{
  justify-content: center;
  align-items: center;
  opacity: 0;
- transition: opacity 1s ease-in-out;
+ transition: opacity .5s ease-out;
 }
 .home .box .content .content-box{
   position: absolute;
@@ -862,7 +861,7 @@ cursor: pointer;
       text-align: center;
     }
     .position{
-      display: none;
+      display: no;
     }
   /* ====== section colab ==========*/
 
