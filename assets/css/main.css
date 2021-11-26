@@ -153,7 +153,7 @@ h4{
  justify-content: center;
  align-items: center;
  opacity: 0;
- transition: opacity 1s ease-out;
+ transition: opacity 1s ease-in-out;
 }
 .home .box .content .content-box{
   position: absolute;
