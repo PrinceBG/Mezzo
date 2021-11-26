@@ -723,13 +723,14 @@ cursor: pointer;
     padding: 2rem 2rem;
   }
   h1{
-    font-size: 5.5rem;
+    font-size: 4.5rem;
   }
   h3{
     font-size: 4.5rem;
   }
   h4{
-    font-size: 2rem;
+    font-size: 3rem;
+    text-transform: uppercase;
   }
   p{
     font-size: 1.3rem;
