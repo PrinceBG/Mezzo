@@ -107,10 +107,11 @@ h4{
   text-transform: uppercase;
 }
 .btn{
+ 
   font-size: 1.9rem;
   font-weight: 700;
-  padding: 1.4rem 5rem;
- 
+  padding: 1.9rem 5rem;
+  border-radius: 20rem;
   border: 1px solid rgba(158, 152, 152, 0.397); 
   /* border-radius: 10rem; */
   background: linear-gradient(0deg, rgba(176,116,42,1) 0%, rgba(250,181,94,1) 100%);
@@ -193,7 +194,6 @@ margin-top: 0;
 }
 .btn-t{
   margin-top: 3rem;
-  
 }
 
 
@@ -223,8 +223,8 @@ margin-top: 0;
   flex-direction: column;
   justify-content: center;
   position: relative;
-
  }
+ 
  
  /* .ABOUT .container .About-info::after{
   content: '';
@@ -735,7 +735,7 @@ cursor: pointer;
     
   }
   .btn{
-    padding: 1rem 2rem;
+    padding: 1.6rem 4rem;
   }
   .logo{
     width: 13rem;
@@ -860,7 +860,9 @@ cursor: pointer;
     .box-service-title h3{
       text-align: center;
     }
-
+    .position{
+      display: none;
+    }
   /* ====== section colab ==========*/
 
 }
