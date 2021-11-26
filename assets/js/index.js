@@ -70,4 +70,4 @@ setInterval(() => {
         }
     removeContent()
     slide[activeindex].classList.add('active')
-}, 6000);
+}, 5000);

@@ -165,9 +165,11 @@ h4{
 }
 
 h1{
+  text-transform: uppercase;
   font-size: 8.5rem;
   font-weight: 500;
   color:rgba(255, 254, 254, 0.596);
+  text-align: center;
 }
 .orange{
   background: linear-gradient(0deg, rgba(176,116,42,1) 0%, rgba(250,181,94,1) 100%);
