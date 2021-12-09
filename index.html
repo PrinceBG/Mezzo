@@ -9,7 +9,8 @@
         <link rel="stylesheet" href="assets/css/main.css">
 
         <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
-
+         
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
         <title> Travel Website </title>
     </head>
@@ -18,56 +19,66 @@
     <header class="heading">
         
         <div class="logo"><a href=""><img src="assets/images/logo-1.png" alt=""></a></div>
-        <nav class="nav">
-            <ul>
-                <li class="nav-list first-list"><a href="" class="first">Acceuil</a></li>
-                <li class="nav-list second-list"><a href="">Tarif</a></li>
-                <li class="nav-list third-list"><a href="">Studio</a></li>
-                <li class="nav-list four-list"><a href="">Cantact</a></li>
-                
-                <a href="#" class="btn">Reserver</a>   
+
+        <div class="box-nav">
+            <nav class="nav">
+                <ul>
+                    <li class="nav-list first-list "><a href="index.html" class="first active-a">Acceuil</a></li>
+                    <li class="nav-list first-list"><a href="apropos.html" class="first">A propos</a></li>
+                    <li class="nav-list second-list"><a href="tarifs.html">Tarif</a></li>
+                    <li class="nav-list third-list"><a href="studio.html">Studio</a></li>
+                    <li class="nav-list four-list"><a href="cantact.html">Cantact</a></li>
+                    
+                    <a href="reserver.html" class="btn">Reserver</a>   
+                </ul> 
                 <i class="ri-close-fill close"></i>
-            </ul> 
+            </nav>
+                <i class="ri-menu-fill menu-open"></i>
             
-        </nav>
-        <div class="menu-mobile">
-            <i class="ri-menu-fill menu-open"></i>
-            
+            <i class="fas fa-sun moon"></i>
         </div>
+       
     </header>
 
 <!-- Section home-->
 
 <section class="home" id="home"> 
-    <div class="box">
+    <div class="box ">
         <div class="content active">
-            <img src="assets/images/sing-5.jpg" alt="">
-             <div class="content-box">
-                <h4 class="sub-title">STUDIO D'ENREGISTREMENT </h4>
-                <h1> Le
-                     STUDIO <span class="orange">MEZZO</span></h1>
+                <img src="assets/images/sing-5.jpg" alt="">
+             <div class="content-box reavel">
+
+                <h1> Le STUDIO <span class="orange">MEZZO</span></h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Facere atque sapiente veritatis nesciunt adipisci culpa .</p>
                 <div class="btn-t"> <a href="#" class="btn">Les Tarifs</a></div>
                </div>
+          
+            
         </div>
         <div class="content">
-             <img src="assets/images/pexels-oleg-gurin-3695476.jpg" alt="">
-              <div class="content-box">
-                 <h1>ENREGISTREMENT </h1>
-                 <h1> Mixage <span class="orange">& Mastering</span></h1>
-                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Facere atque sapiente veritatis nesciunt adipisci culpa .</p>
-                <div class="btn-t"> <a href="#" class="btn">Les Tarifs</a></div>
-            </div>
+            
+                <img src="assets/images/pexels-oleg-gurin-3695476.jpg" alt="">
+                <div class="content-box">
+                   <h1>ENREGISTREMENT </h1>
+                   <h1> Mixage <span class="orange">& Mastering</span></h1>
+                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Facere atque sapiente veritatis nesciunt adipisci culpa .</p>
+                   <div>
+                        <div class="btn-t"> <a href="#" class="btn btn-2">Les Tarifs</a></div>
+                   </div>
+                  
+              </div>
+            
          </div>
     
          <div class="content">
+           
              <img src="assets/images/sing-2.jpg" alt="">
               <div class="content-box">
                  
-                 <h1> Local <span class="orange">repetition</span></h1>
+                 <h1> Local <span class="orange"><br> repetition</span></h1>
                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Facere atque sapiente veritatis nesciunt adipisci culpa .</p>
-                <div class="btn-t"> <a href="#" class="btn">Reserver</a></div>
-             </div>
+                <div class="btn-t"> <a href="https://sebenacademy.systeme.io/course/accueil-sebenacademy/lecture/21202" class="btn">Reserver</a></div>
+              </div>
          </div>
     
      
@@ -79,32 +90,73 @@
     
 <!-- Section About -->
 
-<section class="ABOUT">
-
-    <div class="container">
+<section class="about" id="about">
+    <h3 class="about-title reavel">A propos de moi</h3>
+    <div class="container reavel">
         <div class="About-img">
             
-            <div class="box">
-                <div class="box-img-1">
+            <div class="box ">
+                <div class="box-img-2 ">
+                    <a href=""><img src="assets/images/About.jpg"  alt=""></a>
+                </div>
+                <div class="box-img-1 ">
                     <a href=""><img src="assets/images/About.jpg" class="img-1" alt=""></a>
                 </div>
-                <div class="box-img-2">
+                <div class="box-img-2 ">
                     <a href=""><img src="assets/images/About.jpg"  alt=""></a>
                 </div>
             </div>
             
         </div>
     
-        <div class="About-info">
-            <h3 class="about-title">A propos de moi</h3>
+        <div class="About-info ">
             <h4>Ingenieur <span class="orange"> de son</span></h4>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A recusandae odio odit optio est debitis rerum esse minima provident inventore ducimus ratione tempora, praesentium ab illo fugit corporis vero aliquid.</p>
             <div class="btn-t">
-                <a href="" class="decouvrir">En savoir plus</a>
+                <a href="" class="btn">En savoir plus</a>
             </div>
             <div class="remplissage">
                 
             </div>
+        </div>
+    </div>
+</section>
+<!-- ============== section service generale ========= -->  
+
+<section class="sevice-gen">
+    <h3 class="reavel">NOS SERVICES</h3>
+    <div class="container reavel">
+        <div class="box">
+            <div class="img-serice-gen">
+                <a href=""><i class="fas fa-compact-disc Mysvg"></i></a>
+            </div>
+         <div class="service-text">
+             <p>mastering mixage prise de son</p>
+         </div>
+        </div>
+        <div class="box">
+            <div class="img-serice-gen">
+                <a href=""><i class="fas fa-record-vinyl Mysvg"></i></a>
+            </div>
+         <div class="service-text">
+             <p>mastering mixage prise de son</p>
+         </div>
+        </div>
+        <div class="box">
+            <div class="img-serice-gen">
+                <a href=""><i class="fas fa-microphone-alt Mysvg"></i></a>
+            </div>
+         <div class="service-text">
+             <p>mastering mixage prise de son</p>
+         </div>
+        </div>
+        <div class="box">
+            <div class="img-serice-gen">
+                <a href=""><i class="fas fa-home Mysvg"></i></a>
+            </div>
+         <div class="service-text">
+             <p>mastering mixage prise de son</p>
+         </div>
         </div>
     </div>
 </section>
@@ -114,17 +166,37 @@
 
 
 <section class="Studio">
-    
-    <div class="container">
-        <div class="studio-title Mezzo-title">
-            <h3><span class="orange">Le </span >studio</h3>
-                <h4>APERCU DE NOS LOCAUX </h4>
-                <a href="#" class="decouvrir">VOIR PLUS </a>
-        </div>
-        <div class="box-2">
-            <div class="statut-image">
+    <h3 class="reavel"><span class="orange ">Le </span >studio</h3>
+    <div class="container reavel">
+        
+        <div class="box">
+            <div class="statut-image statut-image-1">
                 <a href=""><img src="assets/images/studio-1.JPG" alt=""></a>
             </div>
+            <div class="statut-image statut-image-2">
+                <a href=""><img src="assets/images/sing-4.jpg" alt=""></a>
+            </div>
+            <div class="statut-image statut-image-3">
+            
+                
+                <div class="studio-title Mezzo-title">
+                    
+                        <h4>APERCU DE NOS LOCAUX </h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias nemo maxime ratione neque culpa quisquam iste enim. Nulla eius necessitatibus vel quasi culpa neque provident delectus expedita ut! Aut, culpa.
+                        iste enim. Nulla eius necessitatibus vel quasi culpa neque provident delectus expedita ut! Aut, culpa.iste enim. Nulla eius necessitatibus vel quasi culpa neque provident delectus expedita ut! Aut, culpa.iste enim. Nulla eius necessitatibus vel
+                        </p>
+                        <div class="btn-t">
+                            <a href="#" class="btn">VOIR PLUS </a>
+                        </div>
+                       
+                </div>
+                <div class="icone">
+                    <i class="ri-arrow-left-line fleche"></i>
+                <i class="ri-arrow-right-line fleche fleche-right"></i>
+                </div>
+                
+            </div>
+           
         </div>
     </div>
 </section>
@@ -133,12 +205,12 @@
 
 
 <!-- ========= Section Services ================ -->
-
+<!-- 
 <section class="service">
     <div class="container">
         <div class="box-service-title">
             <h3><span class="orange">CE QUE NO</span>US PROPOSONS</h3>
-             <!-- <p>Enregistrement, mixage, mastering et répétition... Les Studios Mezzo proposent tous les services essentiels d'un Studio d'enregistrement de musique. Nous louons également nos locaux pour des répétitions dans un espace entièrement insonorisé (mûr et plafond) avec du matériel professionnel. Pour rencontrer notre équipe de professionnels, contactez-nous et réservez un créneau à notre studio.</p> -->
+           
         </div>
         
         <div class="service-info-box">
@@ -173,7 +245,7 @@
         </div>
     </div>
 </section>
-
+ -->
 
 <!-- ========= Fin Section Services ================ -->
 
@@ -182,13 +254,11 @@
 <!-- ========= Section salle répétition ================ -->
 
 <section class="salle-repetition">
-   
-    <div class="container">
+    <div class="Mezzo-title reavel">
+        <h3><span class="orange">LOCAL DE  </span >RÉPÉTITIONS</h3>
+    </div>
+    <div class="container reavel">
         <div class="info-salle">
-            <div class="Mezzo-title ">
-                <h3><span class="orange">LOCAL DE  </span >RÉPÉTITION</h3>
-            </div>
-        
             <div class="info">
                 <h4> POUR TOITES VOS RÉPÉTITION</h4>
                 <p>Le Studio Mezzo met à disposition un local de répétition entièrement insonorisé (mûr et plafond). L'atmosphère stimulante associée à notre équipement de pointe vous permettra d'effectuer des répétitions de qualité. Si vous cherchez à travailler avec la crème de l'industrie musicale, alors Studio Mezzo est l'endroit idéal. Contactez-nous pour toutes réservations et en apprendre plus sur nos tarifs et offres spéciales. </p>                      
@@ -198,40 +268,32 @@
             </div>
         </div>
         <div class="salle-img">
-            <div class="box-img">
+            <div class="box-img img-1">
                     <a href=""><img src="assets/images/IMG_0982.JPG" alt=""></a>
-                
+                    <a href=""><img src="assets/images/IMG_0982.JPG" alt=""></a>
+            </div>   
+            <div class="box-img">
+                <a href=""><img src="assets/images/IMG_0982.JPG" alt=""></a>
+            
             </div>   
         </div>
     </div>
-    <div class="position">
-        <div class="box-img-car ">
-            <a href=""><img src="assets/images/pexels-brett-sayles-3990842.jpg" alt=""></a>
-        </div>
-        <div class="box-img-3 ">
-            <a href=""><img src="assets/images/pexels-brett-sayles-3990842.jpg" alt=""></a>
-        </div>
-        <div class="box-img-car ">
-            <a href=""><img src="assets/images/pexels-brett-sayles-3990842.jpg" alt=""></a>
-        </div>
-    </div>
+
     
 </section>
 
 
 <!-- ========= Section équipement ================ -->
 <section class="equipements">
+    <div class="Mezzo-title reavel">
+        <h3>
+        <span class="orange">e</span >quipements techniques
+        </h3> 
 
-    <div class="container">
-        <div class="box-equipement-info ">
-            <div class="Mezzo-title ">
-                <h3>
-                <span class="orange">e</span >quipements techniques
-                </h3> 
-
-            </div>
-            <a href="" class="decouvrir">DECOUVRIR</a>
-        </div>
+    </div>
+    
+    <div class="container reavel">
+      
          
         <div class="equipement-box-img">
             
@@ -245,6 +307,10 @@
             </div>
 
         </div>
+        <!-- <div class="box-equipement-info ">  
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis nam id dicta optio culpa architecto vel nostrum itaque voluptate officiis. Nam totam voluptatum maiores. Alias pariatur quia iusto vero est?</p>
+            <a href="" class="decouvrir">DECOUVRIR</a>
+        </div> -->
        
     </div>
 </section>
@@ -253,14 +319,12 @@
 <!-- ========== Section Collaboration =============== -->
 
 <section class="colaboration">
-    <div class="container">
+    <div class="Mezzo-title reavel ">
+        <h3><span class="orange"> ILS NOUS FO</span >NT CONFIANCE</h3>  
+    </div>
+    <div class="container reavel">
         <div class="box-colab-info">
-            <div class="Mezzo-title ">
-                <h3><span class="orange"> ILS NOUS FO</span >NT CONFIANCE</h3>  
-            </div>
-            <p>Le Studio Mezzo met à disposition un local de répétition entièrement insonorisé (mûr et plafond).
-                Le Studio Mezzo met à disposition un local de
-            </p>
+            
         </div>
         <div class="box-colb-img">
             <div class="colb-img">
@@ -274,7 +338,7 @@
                 </div>
             </div>
             <div class="colb-img">
-                <a href=""><img src="assets/images/pexels-clam-lo-3355365.jpg" alt=""></a>
+                <a href=""><img src="assets/images/sing-3.jpg" alt=""></a>
                 
                 <div class="col-info">
                     <h4>Titre Nom</h4>
@@ -284,7 +348,7 @@
                 </div>
             </div>
             <div class="colb-img">
-                <a href=""><img src="assets/images/pexels-clam-lo-3355365.jpg" alt=""></a>
+                <a href=""><img src="assets/images/sing-4.jpg" alt=""></a>
                 
                 <div class="col-info">
                 <h4>Titre Nom</h4>
@@ -294,7 +358,7 @@
                 </div>
             </div>
             <div class="colb-img">
-                <a href=""><img src="assets/images/pexels-clam-lo-3355365.jpg" alt=""></a>
+                <a href=""><img src="assets/images/sing-2.jpg" alt=""></a>
                 
                 <div class="col-info">
                 <h4>Titre Nom</h4>
@@ -305,7 +369,7 @@
             </div>
 
             <div class="colb-img">
-                <a href=""><img src="assets/images/pexels-clam-lo-3355365.jpg" alt=""></a>
+                <a href=""><img src="assets/images/sing-5.jpg" alt=""></a>
                 
                 <div class="col-info">
                     <h4>Titre Nom</h4>
@@ -346,8 +410,8 @@
             </div>
         </div>
     </div>
-    <i class="ri-arrow-right-fill arow-2 arrow-right arrow"></i>
-    <i class="ri-arrow-left-fill arrow-left arow-2 arrow"></i>
+    <i class="ri-arrow-right-s-line arow-2 arrow-right arrow reavel"></i>
+    <i class="ri-arrow-left-s-line arrow-left arow-2 arrow reavel"></i>
 </section>
 
 
@@ -390,7 +454,7 @@
             </p>
             <p>
         
-                <textarea id="message"  placeholder="message dvjvl" class="for-bg for-textarea" name="message"
+                <textarea id="message"  placeholder="message" class="for-bg for-textarea" name="message"
                           rows="50" cols="100" >
                 </textarea>
             </p>
@@ -433,9 +497,9 @@
            
         </div>
 
-        <div class="box-footer-reseaux">
+ <div class="box-footer box-footer-reseaux">
             <h4>NOUS SUIVRE</h4>
-            <div>
+            <div class="icons">
                <i class="ri-instagram-fill icon"></i> 
             <i class="ri-facebook-box-fill icon"></i>
             <i class="ri-twitter-fill icon"></i>

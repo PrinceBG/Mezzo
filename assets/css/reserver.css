@@ -1,0 +1,37 @@
+
+
+
+.box-image{
+    flex:1 1 30rem;
+    height: 40rem;
+}
+.carousel{
+    display: flex;
+    gap: 1rem;
+}
+
+.box-content{
+    flex:1 1 30rem;
+    height: 40rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10rem;
+    position: relative;
+}
+.box-content::before{
+    content: '';
+    position: absolute;
+    display: block;
+    width: 7%;
+    height: .1rem;
+    background: chocolate;
+    top:7%;
+    left: 0;
+}
+.box-reservation{
+    margin: 25rem 0;
+}
+.box-reservation iframe{
+    border-radius: 5rem;
+}
