@@ -23,15 +23,17 @@
     content: '';
     position: absolute;
     display: block;
-    width: 7%;
-    height: .1rem;
+    width: 10%;
+    height: .2rem;
     background: chocolate;
     top:7%;
     left: 0;
 }
+.reservation{
+    padding: 0;
+    height: 100vh;
+}
 .box-reservation{
     margin: 25rem 0;
-}
-.box-reservation iframe{
-    border-radius: 5rem;
+    height: 100%;
 }

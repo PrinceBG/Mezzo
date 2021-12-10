@@ -29,7 +29,7 @@ body{
   font-family: 'Raleway', sans-serif;
 }
 body.activate{
-  --color-bg:#f7f7f7;
+  --color-bg:rgb(255, 255, 255);
   --color-black:hsl(206, 4%, 4%);
   --color-text:#36312fe8;
   --colore-title:rgb(5, 5, 12);
@@ -68,12 +68,12 @@ p {
 
 .reavel{
   opacity: 0;
-  transform: translateY(10rem);
+  transform: translateY(4rem);
 }
 .reavel-visible{
   opacity: 1;
   transform: translateY(0);
-  transition: .5s cubic-bezier(.51,.02,.16,.98);
+  transition: .3s cubic-bezier(.51,.02,.16,.98);
 }
 /*=============== HEADER ===============*/
 header{
@@ -120,7 +120,7 @@ h3{
 h4{
   font-family: 'Raleway',sans-serif;
   font-size: 3.5rem;
-  line-height: 1.7;
+  text-transform: capitalize;
   font-weight: 500;
   color: var(--colore-title);
 }
@@ -388,7 +388,7 @@ margin-top: 0;
  .about .container .About-img .box{
    display: grid;
    grid-template-columns: repeat(auto-fit, minmax(5rem, 1fr));
-   gap: 1.5rem;
+   gap: .5rem;
    z-index: 100;
   padding: 0 15%;
    
@@ -396,16 +396,16 @@ margin-top: 0;
  .about .container .About-img  img{
   width: 100%;
   object-fit: cover;
-  border-radius: 30rem;
+  /* border-radius: 30rem; */
   transition: .3s;
 }
 .about .container .About-img  .box-img-1{
-  height: 55rem;
+  height: 50rem;
+  clip-path: polygon(50% 29%, 100% 0, 100% 54%, 50% 84%, 0 54%, 0 0);
 }
 .about .container .About-img  .box-img-2{
  top: 10%;
  height: 45rem;
- transform: translateY(10%);
 }
 /*=========== section Nos service===========*/
 
@@ -445,11 +445,8 @@ margin-top: 0;
   left: 50%;
   transform: translate(-50%);
 }
-.sevice-gen .container .box .img-serice-gen img{
-  
-}
-/*=========== section 
- ===========*/
+
+/*================================== section    ================================*/
 
 .Studio{
   width: 100%;
@@ -654,10 +651,8 @@ margin: 25rem 0;
 .equipements{
   margin-top: 25rem;
 }
-.equipement-box-img{
-  flex: 1 1 70rem;
-}
-.equipement-box-img .box-img-eq{
+
+.box-img-eq{
   display: grid;
   gap: 1rem;
   grid-template-columns: repeat(9,1fr);
@@ -704,22 +699,7 @@ grid-column-end: 10;
   grid-row-end: 7;
 }
 
-.box-equipement-info{
-  flex: 1 1 28rem;
-  text-align: center;
-}
-.decouvrir{
-  display: inline-block;
-  margin-top: 2rem;
-  font-size: 1.8rem;
-  font-weight: 600;
-  background: linear-gradient(0deg, rgba(176,116,42,1) 0%, rgba(250,181,94,1) 100%);
-  color: transparent;
-  -webkit-background-clip: text;
-  background-clip: text;
-  text-transform: uppercase;
-  cursor: pointer;
-}
+
 
 
 
@@ -1087,7 +1067,7 @@ cursor: pointer;
       padding: 0;
     }
     .about .container .About-img .box-img-1{
-      height: 35rem;
+      height: 30rem;
     }
     .about .container .About-img .box-img-2{
       height: 28rem;
